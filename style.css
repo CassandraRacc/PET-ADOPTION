@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .button{
     font: bold 11px Arial;
     text-decoration: none;
@@ -13,21 +18,45 @@
   table, th, td {
 
     border: 2px solid #000;
+    font-family:sans-serif;
+    padding:20px;
+    margin:30px;
 }
 
 div{
     text-align:center;
 }
 
-h1{
+h1, .header{
     font-weight: bold;
     font-display: underline;
+    background-color: #088c72;
+    padding:20px;
     
-    background-color: #088c72
 }
-.table-header{
-    text-align:justify;
+
+caption{
     font-weight:bold;
-    text-decoration: underline;
+    text-decoration:underline;
+    text-shadow: 10px 10x;
+    font-family:'Bebas Neue', sans-serif;
+    font-size:30px;
+    
 
 }
+
+p{
+    text-align:justify;
+    font-family:sans-serif;
+    padding:20px;
+}
+.container{
+    float: right;
+    top: 0px;
+    left: 500px;
+    width:500px;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:50px;
+    }
